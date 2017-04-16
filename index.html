@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/form.css">
     <!-- Import Custom Style -->
+    <link rel="stylesheet" href="plugin/formoid-solid-blue.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -29,9 +30,10 @@
                 <li><a href="" data-slide="slide" data-slide-target=".hero">Home</a></li>
                 <li><a href="" data-slide="slide" data-slide-target=".project">Project</a></li>
                 <li><a href="" data-slide="slide" data-slide-target=".kegiatan">Kegiatan</a></li>
-                <li><a href="" data-slide="slide" data-slide-target=".gabung"><span class="circle"></span> Volunteer</a></li>
+                <li><a href="" data-slide="slide" data-slide-target=".gallery">Gallery</a></li>
+                <li><a href="" data-slide="slide" data-slide-target=".gabung">Volunteer</a></li>
                 <li><a href="" data-slide="slide" data-slide-target=".contact-form">Kontak</a></li>
-                <li><a href="" data-slide="slide" data-slide-target=".maps">Donasi</a></li>
+                <li><a href="donasi.html" target="_blank">Donasi</a></li>
                 
             </ul>
         </div>
@@ -45,7 +47,7 @@
             <li role="presentation"><a href="" data-slide="slide" data-slide-target=".kegiatan">Kegiatan</a></li>
             <li role="presentation"><a href="" data-slide="slide" data-slide-target=".gabung">Volunteer</a></li>
             <li role="presentation"><a href="" data-slide="slide" data-slide-target=".contact-form">Kontak</a></li>
-            <li role="presentation"><a href="" data-slide="slide" data-slide-target="">Donasi</a></li>
+            <li role="presentation"><a target="_blank" href="donasi.html">Donasi</a></li>
         </ul>
     </section>
     
@@ -214,6 +216,114 @@
         </div>
     </section>
 
+    <!-- gallery -->
+    <section class="gallery">
+        <div class="title medium">Gallery</div>
+        <div class="container">
+            <div>
+
+                <button class="btn btn-primary filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="baksos">Bakti Sosial</button>
+                <button class="btn btn-default filter-button" data-filter="panti">Peduli Panti</button>
+                <button class="btn btn-default filter-button" data-filter="bulletin">Bulletin</button>
+                <button class="btn btn-default filter-button" data-filter="mobile-app">Mobile App</button>
+            </div>
+            <br/>
+            
+            <div class="row">
+                <div class="col-md-4 col-xs-4 filter baksos">
+                    <div class="each-item">
+                        <img class="port-image" src="img/gallery/baksos1.jpg"/>
+                        <div class="cap1">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="col-md-4 col-xs-4 filter mobile-app">
+                    <div class="each-item">
+                        <img class="port-image" src="img/gallery/aplikasi.jpg"/>
+                        <div class="cap1">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-xs-4 filter panti">
+                    <div class="each-item">
+                        <img class="port-image" src="img/gallery/panti1.jpg"/>
+                        <div class="cap1">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-xs-4 filter panti">
+                    <div class="each-item">
+                        <img class="port-image" src="img/gallery/panti2.jpg"/>
+                        <div class="cap1">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-xs-4 filter baksos">
+                    <div class="each-item">
+                        <img class="port-image" src="img/gallery/baksos2.jpg"/>
+                        <div class="cap1">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-xs-4 filter panti">
+                    <div class="each-item">
+                        <img class="port-image" src="img/gallery/panti3.jpg"/>
+                        <div class="cap1">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="col-md-4 col-xs-4 filter bulletin">
+                    <div class="each-item">
+                        <img class="port-image" src="img/gallery/buletin.jpeg"/>
+                        <div class="cap1">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-4 filter baksos">
+                    <div class="each-item">
+                        <img class="port-image" src="img/gallery/baksos3.jpg"/>
+                        <div class="cap1">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-4 filter baksos">
+                    <div class="each-item">
+                        <img class="port-image" src="img/gallery/baksos4.jpg"/>
+                        <div class="cap1">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Gabung -->
     <section class="gabung">
         <div class="container bg-white border-box">
@@ -232,40 +342,6 @@
     <section class="contact-form">
         <div class="container">
             <div class="row"> 
-                <div class="col-md-6 col-xs-12">
-                    <form>
-                        <div id="contact-form" class="form-container" data-form-container>
-                            <div class="row">
-                                <div class="form-title">
-                                    <span>Contact Us</span>
-                                </div>
-                            </div>
-                            <div class="input-container">
-                                <div class="row">
-                                    <span class="req-input" >
-                                        <span class="input-status" data-toggle="tooltip" data-placement="top" title="Masukan Nama Lengkap Anda."> </span>
-                                        <input type="text" data-min-length="2" placeholder="Nama Lengkap">
-                                    </span>
-                                </div>
-                                <div class="row">
-                                    <span class="req-input">
-                                        <span class="input-status" data-toggle="tooltip" data-placement="top" title="Masukan Email Anda."> </span>
-                                        <input type="email" placeholder="Email">
-                                    </span>
-                                </div>
-                                <div class="row">
-                                    <span class="req-input message-box">
-                                        <span class="input-status" data-toggle="tooltip" data-placement="top" title="Apa yang ingin anda tanyakan?"> </span>
-                                        <textarea type="textarea" data-min-length="5" placeholder="Pesan"></textarea>
-                                </div>
-
-                                <div class="row submit-row">
-                                    <button type="button" class="btn btn-block submit-form">Submit</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
                 <div class="col-md-6">
                     <p class="title">Saudaraku, ada yang kami bantu? </p>
                     <p class="sub-title">ceritakan keluhan anda disi</p>
@@ -275,6 +351,31 @@
                         "Siapa yang bisa membantu hajat saudaranya, maka Allah akan senantiasa menolongnya dalam hajatnya"
                     </blockquote>
                 </div>
+                <div class="col-md-6 col-xs-12">
+                    <form enctype="multipart/form-data" class="formoid-solid-blue" method="post">
+                        <br></br>
+                            <div class="element-input">
+                                <label class="title"></label>
+                                <div class="item-cont">
+                                    <input class="large" type="text" name="input" placeholder="Nama Lengkap"/><span class="icon-place"></span>
+                                </div>
+                            </div>
+                            <div class="element-email">
+                                <label class="title"></label>
+                                <div class="item-cont">
+                                    <input class="large" type="email" name="email" value="" placeholder="Email"/><span class="icon-place"></span>
+                                </div>
+                            </div>
+                            <div class="element-textarea">
+                                <label class="title"></label>
+                                <div class="item-cont">
+                                    <textarea class="medium" name="pesan" cols="20" rows="5" placeholder="Pesan"></textarea><span class="icon-place"></span>
+                                </div>
+                            </div>
+                            <div class="submit"><input type="submit" value="Submit"/></div>
+                    </form>
+                </div>
+                
             </div>
         </div>
     </section>

@@ -442,21 +442,7 @@ i.fa {
 }
 
 
-/* About */
-.maps {
-	padding: 40px 0 0 0;
-	
-	.title {
-		margin-bottom: 30px;
-	}
-	.maps__inner {
-		@media (max-width: 768px) {
-		    width: 90%;
-		    margin: 0 auto;
-		    margin-bottom: 20px;
-		}
-	}
-}
+
 
 /* Footer Menu */
 .footer {

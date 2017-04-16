@@ -405,29 +405,96 @@ i.fa {
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-    .kegiatan .kegiatan-box .kegiatan__title {
-      font-size: 28px;
-      margin: 10px 0;
-      font-weight: bold; }
-    .kegiatan .kegiatan-box .kegiatan__description {
-      padding: 14px 0 14px 0;
-      text-align: justify;
-      font-size: 14px; }
-    .kegiatan .kegiatan-box .kegiatan__button {
-      padding: 8px;
-      margin-top: 15px; }
-      .nav-tabs .right_title{
-        font-size: 20px;
-      }
+        .kegiatan .kegiatan-box .kegiatan__title {
+          font-size: 28px;
+          margin: 10px 0;
+          font-weight: bold; }
+        .kegiatan .kegiatan-box .kegiatan__description {
+          padding: 14px 0 14px 0;
+          text-align: justify;
+          font-size: 14px; }
+        .kegiatan .kegiatan-box .kegiatan__button {
+          padding: 8px;
+          margin-top: 15px; }
+          .nav-tabs .right_title{
+            font-size: 20px;
+          }
 
-.bg-white
-{
-    background-color: #FFFFFF !important;
-}
+/*gallery*/
+.gallery{
+  padding: 10px 0 150px 0; }
+  .gallery .title {
+    margin-bottom: 30px; }
+    .port-image{
+          width: 100%; }
+      .each-item{
+          position:relative;
+          overflow:hidden;}
+        .each-item:hover .cap2, .each-item:hover .cap1{
+            left:0px; }
+          .cap1{
+              position:absolute;
+              width:100%;
+              height:100%;
+              background:rgba(52, 141, 223, 0.44);
+              top:0px;
+              left:-100%;
+              padding:10px;
+              transition: all .5s;}
+            .cap2{
+                position:absolute;
+                width:100%;
+                height:30%;
+                background:rgba(0, 178, 255, 0.5);
+                bottom:0px;
+                left:100%;
+                padding:10px;
+                transition: all .5s; }
+              .gallery h3,p{
+                color: white;
+              }
+                .gallery img{
+                  width: 400px;
+                  height: 300px;
+                  padding-bottom: 18px;s
+                }
+                .gallery button{
+                  margin-bottom: 17px;
+                }
+/*donasi*/
+.donasi{
+  padding: 50px 0 150px 0; 
+  background-color: #f3f3f3;}
+  .donasi .bantuan{
+    font-size: 18px;
+  }
+  .donasi .bantuan li,p{
+    text-align: left;
+    color:#34495E;
+  }
+    .donasi .bank p{
+      color: #828080;}
+      .donasi .title{
+        margin-top: 20px}
+        .donasi form{
+          background-color:#FFFFFF;
+          font-size:13px;
+          font-family:'Roboto',Arial,Helvetica,sans-serif;
+          color:#34495E;
+          max-width:500px;
+          min-width:150px;
+          margin-top: 30px;}
+            .donasi .bank img{
+             margin-top: 40px;
+             border-width: medium;
+             margin-bottom: 20px;}
+  
+.bg-white{
+    background-color: #FFFFFF !important;}
 
 /* gabung */
 .gabung {
-  padding: 20px 0 90px 0; }
+  padding: 20px 0 140px 0; }
   .gabung .border-box{
       border: 4px solid #BDC3C7;
       padding: 20px 40px;}
@@ -455,7 +522,21 @@ i.fa {
   .contact-form .title{
     font-size: 30px; }
     .contact-form .sub-title{
-    font-size: 24px; }
+    font-size: 24px; 
+    text-align: center;
+    font-family:Serif;
+    color:#858585;}
+      .contact-form .title{
+        color: #858585;}
+        .contact-form form{
+          background-color:#FFFFFF;
+          font-size:13px;
+          font-family:'Roboto',Arial,Helvetica,sans-serif;
+          color:#34495E;
+          max-width:570px;
+          min-width:150px;
+          margin-top: 10px;}
+        
 
 
 /* Travels */
