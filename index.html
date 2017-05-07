@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/form.css">
     <!-- Import Custom Style -->
     <link rel="stylesheet" href="plugin/formoid-solid-blue.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -28,11 +29,13 @@
             </div>
             <ul class="nav navbar-nav navbar-right hidden-xs">
                 <li><a href="" data-slide="slide" data-slide-target=".hero">Home</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
                 <li><a href="" data-slide="slide" data-slide-target=".project">Project</a></li>
                 <li><a href="" data-slide="slide" data-slide-target=".kegiatan">Kegiatan</a></li>
                 <li><a href="" data-slide="slide" data-slide-target=".gallery">Gallery</a></li>
                 <li><a href="" data-slide="slide" data-slide-target=".gabung">Volunteer</a></li>
                 <li><a href="" data-slide="slide" data-slide-target=".contact-form">Kontak</a></li>
+                <li><a href="team.html" target="_blank">Team</a></li>
                 <li><a href="donasi.html" target="_blank">Donasi</a></li>
                 
             </ul>
@@ -47,6 +50,7 @@
             <li role="presentation"><a href="" data-slide="slide" data-slide-target=".kegiatan">Kegiatan</a></li>
             <li role="presentation"><a href="" data-slide="slide" data-slide-target=".gabung">Volunteer</a></li>
             <li role="presentation"><a href="" data-slide="slide" data-slide-target=".contact-form">Kontak</a></li>
+            <li role="presentation"><a target="_blank" href="team.html">Team</a></li>
             <li role="presentation"><a target="_blank" href="donasi.html">Donasi</a></li>
         </ul>
     </section>
@@ -55,7 +59,7 @@
     <section class="sidebar-overlay"></section>
     
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 background">
@@ -101,7 +105,7 @@
         </div>
     </section>
     <!-- project -->
-    <section class="project">
+    <section class="project" id="project">
         <div class="title medium">Apa yang Kita Kerjakan</div>
         <div class="container">
             <div class="col-md-4 col-sm-4 col-xs-12">
@@ -143,7 +147,7 @@
     </section>
     
     <!-- kegiatan -->
-    <section class="kegiatan">
+    <section class="kegiatan" id="kegiatan">
         <div class="title medium">Cerita Harmoni</div>
         <div class="container">
                 <div class="kegiatan-box col-md-12 col-sm-12 col-xs-12">
@@ -217,7 +221,7 @@
     </section>
 
     <!-- gallery -->
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <div class="title medium">Gallery</div>
         <div class="container">
             <div>
@@ -233,99 +237,117 @@
             <div class="row">
                 <div class="col-md-4 col-xs-4 filter baksos">
                     <div class="each-item">
-                        <img class="port-image" src="img/gallery/baksos1.jpg"/>
-                        <div class="cap1">
-                            <h3>Title</h3>
-                            <p>Description</p>
-                        </div>
+                        <a href="img/gallery/baksos1.jpg" data-fancybox data-caption="My caption">
+                            <img class="port-image" src="img/gallery/baksos1.jpg"/>
+                            <div class="cap1">
+                                <h3>Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </a>
                     </div>  
                 </div>
                 
                 <div class="col-md-4 col-xs-4 filter mobile-app">
                     <div class="each-item">
-                        <img class="port-image" src="img/gallery/aplikasi.jpg"/>
-                        <div class="cap1">
-                            <h3>Title</h3>
-                            <p>Description</p>
-                        </div>
+                        <a href="img/gallery/aplikasi.jpg" data-fancybox data-caption="My caption">
+                            <img class="port-image" src="img/gallery/aplikasi.jpg"/>
+                            <div class="cap1">
+                                <h3>Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 
                 <div class="col-md-4 col-xs-4 filter panti">
                     <div class="each-item">
-                        <img class="port-image" src="img/gallery/panti1.jpg"/>
-                        <div class="cap1">
-                            <h3>Title</h3>
-                            <p>Description</p>
-                        </div>
+                        <a href="img/gallery/panti1.jpg" data-fancybox data-caption="My caption">
+                            <img class="port-image" src="img/gallery/panti1.jpg"/>
+                            <div class="cap1">
+                                <h3>Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 
                 <div class="col-md-4 col-xs-4 filter panti">
                     <div class="each-item">
-                        <img class="port-image" src="img/gallery/panti2.jpg"/>
-                        <div class="cap1">
-                            <h3>Title</h3>
-                            <p>Description</p>
-                        </div>
+                        <a href="img/gallery/panti2.jpg" data-fancybox data-caption="My caption">
+                            <img class="port-image" src="img/gallery/panti2.jpg"/>
+                            <div class="cap1">
+                                <h3>Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 
                 <div class="col-md-4 col-xs-4 filter baksos">
                     <div class="each-item">
-                        <img class="port-image" src="img/gallery/baksos2.jpg"/>
-                        <div class="cap1">
-                            <h3>Title</h3>
-                            <p>Description</p>
-                        </div>
+                        <a href="img/gallery/baksos2.jpg" data-fancybox data-caption="My caption">
+                            <img class="port-image" src="img/gallery/baksos2.jpg"/>
+                            <div class="cap1">
+                                <h3>Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 
                 <div class="col-md-4 col-xs-4 filter panti">
                     <div class="each-item">
-                        <img class="port-image" src="img/gallery/panti3.jpg"/>
-                        <div class="cap1">
-                            <h3>Title</h3>
-                            <p>Description</p>
-                        </div>
+                        <a href="img/gallery/panti3.jpg" data-fancybox data-caption="My caption">
+                            <img class="port-image" src="img/gallery/panti3.jpg"/>
+                            <div class="cap1">
+                                <h3>Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             
 
                 <div class="col-md-4 col-xs-4 filter bulletin">
                     <div class="each-item">
-                        <img class="port-image" src="img/gallery/buletin.jpeg"/>
-                        <div class="cap1">
-                            <h3>Title</h3>
-                            <p>Description</p>
-                        </div>
+                        <a href="img/gallery/buletin.jpeg" data-fancybox data-caption="My caption">
+                            <img class="port-image" src="img/gallery/buletin.jpeg"/>
+                            <div class="cap1">
+                                <h3>Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-xs-4 filter baksos">
                     <div class="each-item">
-                        <img class="port-image" src="img/gallery/baksos3.jpg"/>
-                        <div class="cap1">
-                            <h3>Title</h3>
-                            <p>Description</p>
-                        </div>
+                        <a href="img/gallery/baksos3.jpg" data-fancybox data-caption="My caption">
+                            <img class="port-image" src="img/gallery/baksos3.jpg"/>
+                            <div class="cap1">
+                                <h3>Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-xs-4 filter baksos">
                     <div class="each-item">
-                        <img class="port-image" src="img/gallery/baksos4.jpg"/>
-                        <div class="cap1">
-                            <h3>Title</h3>
-                            <p>Description</p>
-                        </div>
+                        <a href="img/gallery/baksos4.jpg" data-fancybox data-caption="My caption">
+                            <img class="port-image" src="img/gallery/baksos4.jpg"/>
+                            <div class="cap1">
+                                <h3>Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--Gabung -->
-    <section class="gabung">
+    <section class="gabung" id="gabung">
         <div class="container bg-white border-box">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
@@ -339,7 +361,7 @@
     </section>
 
 
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
         <div class="container">
             <div class="row"> 
                 <div class="col-md-6">
@@ -381,7 +403,7 @@
     </section>
 
     <!-- Travels -->
-    <section class="travels">
+    <section class="travels" id="partner">
         <div class="title medium">Partner Kami</div>
         <div class="container">
             <div class="col-md-10 col-md-offset-1">
@@ -481,7 +503,14 @@
     <script type="text/javascript" src="js/aos.js"></script>
     <script type="text/javascript" src="js/form.js"></script>
     <!-- Import Custom Script -->
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+
+    <script type="text/javascript">
+        $("[data-fancybox]").fancybox({
+            // Options will go here
+        });
+    </script>
 </body>
 
 </html>
